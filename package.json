@@ -1,0 +1,26 @@
+{
+  "name": "catwebdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "mini-css-extract-plugin": "^1.1.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
